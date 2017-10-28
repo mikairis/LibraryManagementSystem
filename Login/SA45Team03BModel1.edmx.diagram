@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ee75f5bc06394459a9ad2d552d8f3711" Name="Diagram1">
+        <EntityTypeShape EntityType="SA45Team03BModel.Author" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA45Team03BModel.Book" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA45Team03BModel.Country" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA45Team03BModel.Customer" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA45Team03BModel.Employee" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA45Team03BModel.ExtendApplication" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA45Team03BModel.IssueTran" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA45Team03BModel.PaymentTran" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA45Team03BModel.Publisher" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA45Team03BModel.User" Width="1.5" PointX="9.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="SA45Team03BModel.fk_AuthorID" ManuallyRouted="false" />
+        <AssociationConnector Association="SA45Team03BModel.FK_BookCode_IssueTran" ManuallyRouted="false" />
+        <AssociationConnector Association="SA45Team03BModel.fk_CustomerIDforTransaction" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
